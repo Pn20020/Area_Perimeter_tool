@@ -1,11 +1,11 @@
 # show user list of shapes
-Shapes_list = ("circle", "square", "retangle",)
-print(Shapes_list)
+shapes_list = ("circle", "square", "retangle",)
+print(shapes_list)
 
-Shapes_list = input("Please choose a shape")
+shapes_list = input("Please choose a shape")
 
 
 
-print("You have choosen {}".format(Shapes_list))
+print("You have choosen {}".format(shapes_list))
 
-if inpu
+print("test")
