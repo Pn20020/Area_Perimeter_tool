@@ -1,4 +1,4 @@
-def Lenght(question):
+def shape_lenght(question):
 # functions go here 
 
 # checks users enter an integer to a given question 
@@ -15,5 +15,15 @@ def Lenght(question):
 
 
 # Main routine goes here 
+max_lenght = 1
+lenght_asked = 0 
 
-lenght = Lenght("Please enter the lenght for your shape ")
+while True:
+
+  lenght = shape_lenght("Please enter the lenght for your shape ")
+  
+  if max_lenght == lenght_asked:
+    break
+
+
+  lenght_asked += 1 

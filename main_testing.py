@@ -24,9 +24,9 @@ question = yes_no("Do you want the instructions")
 def Shapes(question, num_letters, valid_responses):
 
     error = "Please choose from our shapes list we have {} {} {} and {}".format(valid_responses[0],
-                                            valid_responses[1],
-                                            valid_responses[2],
-                                            valid_responses[3])
+                                                                                valid_responses[1],
+                                                                                valid_responses[2],
+                                                                                valid_responses[3])
 
     if num_letters == 1:
         short_version = 1
