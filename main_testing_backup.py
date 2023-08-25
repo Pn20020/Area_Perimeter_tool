@@ -7,7 +7,7 @@ def yes_no(question):
     # input
     if response == "yes" or response == "y":
       response = "yes"
-      print("Wellcome to the area/perimeter tool we will ask you to choose from the list of shapes to choose from and the measurements in mm and we will calculate the area and perimeter for you")
+      print("Display insturctions")
       return response
   
     elif response == "no" or response == "n":
@@ -194,6 +194,7 @@ if shapes_list == "circle":
       
 
 #sqaure and rectangle
+#sqaure and rectangle
 if shapes_list == "square" or shapes_list == "rectangle":
     while True:
         length = shape_lenght("Please enter the shape's length") 
@@ -232,7 +233,6 @@ if shapes_list == "triangle":
   
     triangle_area, triangle_perimeter = calculate_triangle_info(length, height)
     break
-
 
 #show users their history 
 #Display user histoy 
