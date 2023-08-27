@@ -254,6 +254,6 @@ elif shapes_list == "rectangle":
     print("Rectangle Perimeter", perimeter)
 elif shapes_list == "triangle":
     print("Base Lenght", length)
-    print("Height Lenght", length)
+    print("Height Lenght", height)
     print("Triangle Area", triangle_area)
     print("Triangle Perimeter",  triangle_perimeter)
